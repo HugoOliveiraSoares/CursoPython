@@ -1,6 +1,6 @@
 from socket import *
 
-serverHOST = '192.168.0.15'
+serverHOST = '192.168.0.101'
 serverPORT = 30800
 msg = [b'Ola,bem vindo!']
 
