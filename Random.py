@@ -3,10 +3,15 @@ import random
 min = 1
 max = 10
 
-roll_again = 'sim'
+#roll_again = 'sim'
+roll = 1
 
-while roll_again == 'sim' or roll_again == 's':
+while roll != 0:
     print('Sorteando')
     print(random.randint(min, max))
 
-    roll_again = input('Quer sortear de novo?')
+    roll_again = input('Quer sortear de novo?(s/n) ')
+    if roll_again == 'sim' or roll_again == 's':
+        roll = 1
+    else:
+        roll = 0

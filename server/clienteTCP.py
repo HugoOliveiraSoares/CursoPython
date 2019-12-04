@@ -1,7 +1,7 @@
 from socket import *
 
-serverHOST = '192.168.0.101'
-serverPORT = 30800
+serverHOST = 'deorsum.serveo.net'
+serverPORT = 5555
 msg = [b'Ola,bem vindo!']
 
 sockobj = socket(AF_INET, SOCK_STREAM)
