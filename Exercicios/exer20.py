@@ -8,3 +8,5 @@ lista = [aluno1, aluno2, aluno3, aluno4]
 random.shuffle(lista)
 
 print(lista)
+
+
